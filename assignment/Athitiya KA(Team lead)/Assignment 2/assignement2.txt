@@ -1,0 +1,10 @@
+import random
+
+#since temperature is inversely propotional to humidity
+temp = random.randint(50,200)
+#print(temp)
+humidity = random.randint(10,80)
+#print(humidity)
+while(temp>150 and humidity <40):
+    print("Warning high temperature detected %s °C !!!"%(temp))
+
