@@ -1,0 +1,9 @@
+import random 
+
+temp = random.randint(50,200)
+print(temp)
+humidity = random.randint(20,80)
+print(humidity)
+
+while(temp>150 and humidity < 50):
+	print("High temperature detected %s *C"%s(temp))
